@@ -1,4 +1,3 @@
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
@@ -26,7 +25,7 @@ function Header() {
                     <Nav>
 
                         <>
-                            <Nav.Link href="#home">My Notes</Nav.Link>
+                            <Nav.Link href="/mynotes">My Notes</Nav.Link>
                             <NavDropdown
                                 title="Shrived Kakde"
                                 id="collasible-nav-dropdown"
