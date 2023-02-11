@@ -1,9 +1,16 @@
 import './App.css';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import LandingPage from './screens/Landing/LandingPage';
 
 function App() {
   return (
     <div className="App">
-      hi
+      <Header />
+      <main  >
+        <LandingPage />
+      </main>
+      <Footer />
     </div>
   );
 }
